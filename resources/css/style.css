@@ -1,0 +1,106 @@
+body, html {
+  font-size: 16px;
+}
+
+a {
+  color: black;
+}
+
+/* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
+
+/*
+div, section {
+  border: 1px solid black;
+}
+*/
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  margin-right: 0.5rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-image {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-image img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.logo-image:hover .image2 {
+  display: inline;
+}
+
+.logo-image .image2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+h1 {
+  padding: 30px;
+  font-weight: bold;
+}
+
+section {
+    padding: 0 3em 3em 3em;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  margin: 0;
+}
+
+.jumbotron p {
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.btn {
+  background-color: #008080;
+  font-weight: bolder;
+}
+
+/* Portfolio Section */
+
+#creation {
+  background-color: #eee;
+}
+
+.row img {
+  margin: 20px 0;
+}
+
+/*Contact Section*/
+
+.contact {
+  padding: 1em;
+}
+
+/* Footer */
+
+footer {
+  background: black;
+  color: lightgray;
+  padding: .6em;
+  font-size: 0.8rem;
+}
